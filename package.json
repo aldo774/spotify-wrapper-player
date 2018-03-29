@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aldo774/js_tdd_course.git"
+    "url": "git+https://github.com/aldo774/spotify-wrapper-player.git"
   },
   "keywords": [
     "js",
@@ -33,9 +33,9 @@
   "author": "Aldo Soares <soares_aldo@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aldo774/js_tdd_course/issues"
+    "url": "https://github.com/aldo774/spotify-wrapper-player/issues"
   },
-  "homepage": "https://github.com/aldo774/js_tdd_course#readme",
+  "homepage": "https://github.com/aldo774/spotify-wrapper-player#readme",
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
