@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import spotify from '../src/spotify';
+import spotify from '../src/Spotify';
 
 describe('Spotify', () => {
   it('should be an object', () => {
