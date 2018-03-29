@@ -13,6 +13,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, './example'),
   },
+  mode: 'development',
   module: {
     rules: [
       {
