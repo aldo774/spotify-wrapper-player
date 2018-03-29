@@ -4,11 +4,12 @@ function createMarkup(data) {
     <p class="album-title">${data.name}</p>
     <p class="album-artist">${data.artists[0].name}</p>
     <p class="album-counter">${data.tracks.total} Músicas</p>
-  `
+  `;
 }
 
 export default function renderAlbumInfo(data, element) {
   const markup = createMarkup(data);
-  element.innerHTML = markup;
+  const el = element;
+  el.innerHTML = markup;
   return data;
-};
+}

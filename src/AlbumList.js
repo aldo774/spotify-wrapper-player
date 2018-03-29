@@ -12,5 +12,6 @@ function createMarkup(data) {
 
 export default function renderAlbums(data, element) {
   const markup = createMarkup(data);
-  element.innerHTML = markup;
+  const el = element;
+  el.innerHTML = markup;
 }

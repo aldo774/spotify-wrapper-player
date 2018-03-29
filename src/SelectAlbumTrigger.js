@@ -1,4 +1,6 @@
-import spotify from './Spotify';
+/* eslint-env browser */
+
+import spotify from './spotify';
 import renderAlbumInfo from './AlbumInfo';
 import renderAlbumTracks from './AlbumTracks';
 
@@ -10,11 +12,11 @@ function makeRequest(albumId) {
   spotify.album.getAlbum(albumId)
     .then(data => renderAlbumInfo(data, albumInfo))
     .then(data => renderAlbumTracks(data.tracks.items, albumTracks));
-  }
+}
 
 export default function selectAlbumTrigger() {
   listAlbums.addEventListener('click', (e) => {
-    const target = e.target;
+    const { target } = e;
     makeRequest(target.getAttribute('data-album-id'));
   });
 }
